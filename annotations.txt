@@ -1,0 +1,14 @@
+Iniciando backend do GoBarber
+    Comandos
+    
+    1 - Configurando estrutura
+            yarn init -y //criar a estrutura do node
+            yarn add express //instalar o express
+            yarn add sucrase //traduzir código JS
+            yarn add nodemon //monitor de script para desenvolvimento
+
+    2 - Nodemon e Sucrase
+    
+    3 - Configurando Docker
+    
+    4 - Configurando Docker
