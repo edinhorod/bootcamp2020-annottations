@@ -29,3 +29,9 @@ Iniciando backend do GoBarber
         yarn add sequelize-cli -D //interface de linha de comando do sequelize
         yarn add pg pg-hstore //dependências do postgres
 
+    6 - Migration de usuário
+        yarn sequelize migration:create --name=create-users //Para criar a migrations de usuários
+        yarn sequelize db:migrate //Executar as migrations
+        yarn sequelize db:migrate:undo//Desfaz a última migration
+        yarn sequelize db:migrate:undo:all//Desfaz todas as migrations
+
